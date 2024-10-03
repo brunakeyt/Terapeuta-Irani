@@ -1,0 +1,39 @@
+header{
+    /*não consigo alinhar a imagem ao centro*/
+}
+
+header img{
+    width: 300px;
+    height: 300px;
+}
+
+body{
+    background-color: #56e1ef;
+}
+
+main{
+    display: flex;
+}
+
+main section{
+    margin: 15px;
+    padding: 15px;
+    width: 300px;
+    height: 500px;
+    background-color: blue;
+}
+
+footer{
+    border: 15px;
+    margin: 15px
+}
+
+.contato{
+    display: flex;
+    border: 15px;
+    margin: 15px
+}
+
+.contato p{
+    padding-left: 15px;
+}
