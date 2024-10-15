@@ -1,5 +1,7 @@
 header{
-    /*não consigo alinhar a imagem ao centro*/
+    display: flex;
+    justify-content: center;
+    padding: 50px;
 }
 
 header img{
@@ -11,21 +13,63 @@ body{
     background-color: #56e1ef;
 }
 
-main{
-    display: flex;
+h1{
+    font-size: xx-large;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
 }
 
-main section{
+h2{
+    font-size: x-large;
+    margin: 5px 5px 30px 5px;
+    text-align: center;
+}
+
+main{
+    text-align: justify;
+}
+
+main p{
+    text-indent: 3em;
+    line-height: 25px;
+    font-size: large;
+    color: #293a3f;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.infos{
+    margin: 5% 15%;
+}
+
+.cards section{
     margin: 15px;
-    padding: 15px;
-    width: 300px;
-    height: 500px;
-    background-color: blue;
+    padding: 30px;
+    width: 20%;
+    background-image: linear-gradient(#5AA6BE 60%,#457F92 100%);
+    border-radius: 50px;
+    box-shadow: 10px 10px 15px #023469;
+}
+
+.cards section img{
+    width: 100%;
 }
 
 footer{
-    border: 15px;
-    margin: 15px
+    padding: 15px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+footer img{
+    width: 35%;
+    margin: 30px;
 }
 
 .contato{
@@ -36,4 +80,10 @@ footer{
 
 .contato p{
     padding-left: 15px;
+    color: black;
 }
+
+a{
+    text-decoration: none;
+}
+
