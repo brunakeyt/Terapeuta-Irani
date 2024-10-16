@@ -47,6 +47,24 @@ main p{
     margin: 5% 15%;
 }
 
+.sobreMim{
+    display: flex;
+    justify-content: left;
+}
+
+li{
+    line-height: 20px;
+    margin: 10px;
+    font-size: large;
+    color: #293a3f;
+}
+
+.infos .sobreMim img{
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+}
+
 .cards section{
     margin: 15px;
     padding: 30px;
@@ -58,6 +76,7 @@ main p{
 
 .cards section img{
     width: 100%;
+    border-radius: 20px;
 }
 
 footer{
